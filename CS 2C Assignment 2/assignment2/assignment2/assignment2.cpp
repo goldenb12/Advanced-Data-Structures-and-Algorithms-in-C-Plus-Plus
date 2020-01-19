@@ -30,7 +30,6 @@ at once.
 */
 
 #include <iostream>
-#include <cassert>
 #include "FHlist.h"
 #include "FHvector.h"
 using namespace std;
@@ -118,8 +117,6 @@ int main()
 template <class Object>
 SparseMat<Object>::SparseMat(int r, int c, const Object & defaultVal)
 {
-   // assert function is used to check logically impossible situations
-   assert(r >= 1 && c >= 1);
    rowSize = r;
    colSize = c;
    for (int i = 0; i < colSize; i++)
