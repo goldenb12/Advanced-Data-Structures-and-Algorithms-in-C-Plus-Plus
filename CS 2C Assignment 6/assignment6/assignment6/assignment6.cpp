@@ -53,6 +53,7 @@ void displayOneEBook(EBookEntry book);
 
 int main()
 {
+
    EBookEntry book;
    vector<int> randomIndices;
 
@@ -193,312 +194,166 @@ void displayOneEBook(EBookEntry book)
 /*
  Output:
 
+ catalog-short4.txt
  550
  The same random books from the hash table
- # 29420 ---------------
- "American Rural Highways"
- by Agg, T. R. (Thomas Radford), 1878-1947
- re: Roads -- United States
+    # 27818  ---------------
+    "Blackwood's Edinburgh Magazine, Volume 58, Number 358, August 1845"
+    by Various
+    re: AP
 
 
- # 29165 ---------------
- "The American Missionary — Volume 38, No. 01, January, 1884"
- by Various
- re: Congregational churches -- Missions -- Periodicals
+    # 28226  ---------------
+    "The War in the Air; Vol. 1
+ The Part played in the Great War by the Royal Air Force"
+    by Raleigh, Walter Alexander, Sir, 1861-1922
+    re: Great Britain. Royal Air Force
 
 
- # 28476 ---------------
- Antiquaries, Genealogists, etc" for Literary Men, Artists,
- by Various
- re: Questions and answers -- Periodicals
+    # 25686  ---------------
+    "The Iraq Study Group Report"
+    by Iraq Study Group (U.S.)
+    re: Iraq War, 2003-
 
 
- # 27041 ---------------
- "L'art roman dans le Sud-Manche"
- by Lebert, Marie
- re: London (England) -- History -- To 1500
+    # 27133  ---------------
+    "Histoire du Canada depuis sa découverte jusqu'à nos jours. Tome III"
+    by Garneau, F.-X. (François-Xavier), 1809-1866
+    re: Canada -- History -- To 1763 (New France)
 
 
- # 363 ---------------
- "The Oakdale Affair"
- by Burroughs, Edgar Rice, 1875-1950
- re: Fiction
+    # 29487  ---------------
+    "Forever"
+    by Sheckley, Robert, 1928-2005
+    re: Science fiction
 
 
- # 6640 ---------------
- "Märchen-Almanach auf das Jahr 1828"
- by Hauff, Wilhelm, 1802-1827
- re: Fairy tales -- Germany
+    # 27623  ---------------
+    "C'est la loi!"
+    by Du Veuzit, Max, 1886-1952
+    re: French drama -- 20th century
 
 
- # 30094 ---------------
- The Great Race at Riverport School"
- by Chapman, Allen
- re: Marathon running -- Juvenile fiction
+    # 352  ---------------
+    "Buttered Side Down: Stories"
+    by Ferber, Edna, 1885-1968
+    re: Short stories
 
 
- # 16811 ---------------
- or, Kamilaroi Sayings (1856)"
- by Ridley, William, 1819-1878
- re: Kamilaroi language -- Terms and phrases
+    # 25004  ---------------
+    "A Confederate Girl's Diary"
+    by Dawson, Sarah Morgan, 1842-1909
+    re: Louisiana -- History -- Civil War, 1861-1865
 
 
- # 26598 ---------------
- "Seasoning of Wood"
- by Wagner, J. B. (Joseph Bernard), 1870-
- re: Lumber -- Drying
+    # 5701  ---------------
+    "Sleepy-Time Tales: the Tale of Fatty Coon"
+    by Bailey, Arthur Scott, 1877-1949
+    re: United States -- History -- Civil War, 1861-1865 -- Personal narratives
 
 
- # 29932 ---------------
- "The Harbor"
- by Poole, Ernest, 1880-1950
- re: Fiction
+    # 29604  ---------------
+    "College Teaching
+ Studies in Methods of Teaching in the College"
+    by Klapper, Paul, 1885-1952
+    re: Teaching
 
 
- # 28757 ---------------
- "Divided Skates"
- by Raymond, Evelyn, 1843-1910
- re: Orphans -- Juvenile fiction
+    # 25503  ---------------
+    "Le Tour du Monde; Scandinavie
+ Journal des voyages et des voyageurs; 2. sem. 1860"
+    by Various
+    re: Geography -- Pictorial works -- Periodicals
 
 
- # 15561 ---------------
- "The Boer in Peace and War"
- by Mann, Arthur M.
- re: Cook, James, 1728-1779
+    # 28532  ---------------
+    "Blackwood's Edinburgh Magazine, Volume 59, No. 363, January, 1846"
+    by Various
+    re: AP
 
 
- # 26705 ---------------
- "The Caravan Route between Egypt and Syria"
- by Ludwig Salvator, Archduke of Austria, 1847-1915
- re: Palestine -- Description and travel
+    # 19188  ---------------
+    "Poems"
+    by Rossetti, Christina Georgina, 1830-1894
+    re: Orléans, Philippe, duc d', 1674-1723 -- Fiction
 
 
- # 25254 ---------------
- "Notes on Islam"
- by Hussain, Ahmed, Sir, 1863-
- re: Islam
+    # 28065  ---------------
+    "The Pecan and its Culture"
+    by Hume, H. Harold (Hardrada Harold), 1875-1965
+    re: Pecan
 
 
- # 25202 ---------------
- "Bu Hong Lou Meng"
- by Langhuanshanqiao, 18th/19th cent.
- re: PL
+    # 26149  ---------------
+    "Left Guard Gilbert"
+    by Barbour, Ralph Henry, 1870-1944
+    re: Football -- Juvenile fiction
 
 
- # 28394 ---------------
- "William Penn"
- by Hodges, George, 1856-1919
- re: Penn, William, 1644-1718
+    # 26552  ---------------
+    "Fruits of Queensland"
+    by Benson, Albert H.
+    re: Fruit-culture -- Queensland
 
 
- # 29971 ---------------
+    # 29133  ---------------
+    "Shipwreck in the Sky"
+    by Binder, Eando
+    re: Science fiction
+
+
+    # 26847  ---------------
+    "A Pessimist
+ In Theory and Practice"
+    by Bird, Frederic Mayer, 1838-1908
+    re: PS
+
+
+    # 29971  ---------------
+    "Old Groans and New Songs
  Being Meditations on the Book of Ecclesiastes"
- by Jennings, Frederick Charles, 1847-1948
- re: Bible. O.T. Ecclesiastes -- Meditations
+    by Jennings, Frederick Charles, 1847-1948
+    re: Bible. O.T. Ecclesiastes -- Meditations
 
 
- # 15533 ---------------
- "The Present Picture of New South Wales (1811)"
- by Mann, David Dickinson
- re: Feminist fiction
+    # 27754  ---------------
+    "The Flower Basket
+ A Fairy Tale"
+    by Unknown
+    re: Fairy tales
 
 
- # 6366 ---------------
- "The Principles of Aesthetics"
- by Parker, Dewitt H.
- re: Folklore
+    # 29030  ---------------
+    "Wilson's Tales of the Borders and of Scotland, Volume VI"
+    by Souvestre, Pierre, 1874-1914
+    re: Scottish Borders (Scotland) -- Fiction
 
 
- # 30094 ---------------
- The Great Race at Riverport School"
- by Chapman, Allen
- re: Marathon running -- Juvenile fiction
+    # 25734  ---------------
+    "Correspondance de Voltaire avec le roi de Prusse"
+    by Voltaire, 1694-1778
+    re: Frederick II, King of Prussia, 1712-1786 -- Correspondence
 
 
- # 25833 ---------------
- "The Great Controversy Between Christ and Satan"
- by White, Ellen Gould Harmon, 1827-1915
- re: Seventh-Day Adventists -- Doctrines
+    # 27792  ---------------
+    "The Arrow-Maker
+ A Drama in Three Acts"
+    by Austin, Mary Hunter, 1868-1934
+    re: Indians of North America -- Drama
 
 
- # 11024 ---------------
- Of de koffiveilingen der Nederlandsche Handelsmaatschappy"
- by Multatuli, 1820-1887
- re: Boyle, Robert, 1627-1691
+    # 25282  ---------------
+    "Der Judenstaat. English"
+    by Herzl, Theodor, 1860-1904
+    re: Zionism
 
 
- # 25761 ---------------
- "St. Bernard of Clairvaux's Life of St. Malachy of Armagh"
- by Bernard, of Clairvaux, Saint, 1091?-1153
- re: Malachy, Saint, 1094?-1148
+    # 25241  ---------------
+    "Surpreza
+ Entre-acto original"
+    by Mascarenhas, Miguel J. T.
+    re: Portuguese drama
 
 
- # 26245 ---------------
- "The History of the Peloponnesian War"
- by Thucydides, 455? BC-395 BC
- re: Greece -- History -- Peloponnesian War, 431-404 B.C.
-
-
- # 24959 ---------------
- "Working With the Working Woman"
- by Parker, Cornelia Stratton, 1885-
- re: United States -- Social conditions
-
-
- not found. not found. not found.
-
- 550
- The same random books from the hash table
- # 29420 ---------------
- "American Rural Highways"
- by Agg, T. R. (Thomas Radford), 1878-1947
- re: Roads -- United States
-
-
- # 29165 ---------------
- "The American Missionary — Volume 38, No. 01, January, 1884"
- by Various
- re: Congregational churches -- Missions -- Periodicals
-
-
- # 28476 ---------------
- Antiquaries, Genealogists, etc" for Literary Men, Artists,
- by Various
- re: Questions and answers -- Periodicals
-
-
- # 27041 ---------------
- "L'art roman dans le Sud-Manche"
- by Lebert, Marie
- re: London (England) -- History -- To 1500
-
-
- # 363 ---------------
- "The Oakdale Affair"
- by Burroughs, Edgar Rice, 1875-1950
- re: Fiction
-
-
- # 6640 ---------------
- "Märchen-Almanach auf das Jahr 1828"
- by Hauff, Wilhelm, 1802-1827
- re: Fairy tales -- Germany
-
-
- # 30094 ---------------
- The Great Race at Riverport School"
- by Chapman, Allen
- re: Marathon running -- Juvenile fiction
-
-
- # 16811 ---------------
- or, Kamilaroi Sayings (1856)"
- by Ridley, William, 1819-1878
- re: Kamilaroi language -- Terms and phrases
-
-
- # 26598 ---------------
- "Seasoning of Wood"
- by Wagner, J. B. (Joseph Bernard), 1870-
- re: Lumber -- Drying
-
-
- # 29932 ---------------
- "The Harbor"
- by Poole, Ernest, 1880-1950
- re: Fiction
-
-
- # 28757 ---------------
- "Divided Skates"
- by Raymond, Evelyn, 1843-1910
- re: Orphans -- Juvenile fiction
-
-
- # 15561 ---------------
- "The Boer in Peace and War"
- by Mann, Arthur M.
- re: Cook, James, 1728-1779
-
-
- # 26705 ---------------
- "The Caravan Route between Egypt and Syria"
- by Ludwig Salvator, Archduke of Austria, 1847-1915
- re: Palestine -- Description and travel
-
-
- # 25254 ---------------
- "Notes on Islam"
- by Hussain, Ahmed, Sir, 1863-
- re: Islam
-
-
- # 25202 ---------------
- "Bu Hong Lou Meng"
- by Langhuanshanqiao, 18th/19th cent.
- re: PL
-
-
- # 28394 ---------------
- "William Penn"
- by Hodges, George, 1856-1919
- re: Penn, William, 1644-1718
-
-
- # 29971 ---------------
- Being Meditations on the Book of Ecclesiastes"
- by Jennings, Frederick Charles, 1847-1948
- re: Bible. O.T. Ecclesiastes -- Meditations
-
-
- # 15533 ---------------
- "The Present Picture of New South Wales (1811)"
- by Mann, David Dickinson
- re: Feminist fiction
-
-
- # 6366 ---------------
- "The Principles of Aesthetics"
- by Parker, Dewitt H.
- re: Folklore
-
-
- # 30094 ---------------
- The Great Race at Riverport School"
- by Chapman, Allen
- re: Marathon running -- Juvenile fiction
-
-
- # 25833 ---------------
- "The Great Controversy Between Christ and Satan"
- by White, Ellen Gould Harmon, 1827-1915
- re: Seventh-Day Adventists -- Doctrines
-
-
- # 11024 ---------------
- Of de koffiveilingen der Nederlandsche Handelsmaatschappy"
- by Multatuli, 1820-1887
- re: Boyle, Robert, 1627-1691
-
-
- # 25761 ---------------
- "St. Bernard of Clairvaux's Life of St. Malachy of Armagh"
- by Bernard, of Clairvaux, Saint, 1091?-1153
- re: Malachy, Saint, 1094?-1148
-
-
- # 26245 ---------------
- "The History of the Peloponnesian War"
- by Thucydides, 455? BC-395 BC
- re: Greece -- History -- Peloponnesian War, 431-404 B.C.
-
-
- # 24959 ---------------
- "Working With the Working Woman"
- by Parker, Cornelia Stratton, 1885-
- re: United States -- Social conditions
-
-
- not found. not found. not found.
-
+ not found.  not found.  not found.  Program ended with exit code: 0
  */

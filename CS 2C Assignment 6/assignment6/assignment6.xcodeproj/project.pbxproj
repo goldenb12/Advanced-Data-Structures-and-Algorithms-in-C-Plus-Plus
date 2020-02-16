@@ -31,7 +31,7 @@
 		C65EBA6F23F70BE80091B7F9 /* FHhashQP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHhashQP.h; sourceTree = "<group>"; };
 		C65EBA7023F70BE80091B7F9 /* EBookEntry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EBookEntry.cpp; sourceTree = "<group>"; };
 		C65EBA7123F70BE80091B7F9 /* EBookEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBookEntry.h; sourceTree = "<group>"; };
-		C6F492B323F853B7003D0A86 /* catalog-short4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "catalog-short4.txt"; sourceTree = "<group>"; };
+		C6B595BC23F9D1F500315E09 /* catalog-short4.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "catalog-short4.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		C65EBA5A23F70B580091B7F9 = {
 			isa = PBXGroup;
 			children = (
-				C6F492B323F853B7003D0A86 /* catalog-short4.txt */,
+				C6B595BC23F9D1F500315E09 /* catalog-short4.txt */,
 				C65EBA7023F70BE80091B7F9 /* EBookEntry.cpp */,
 				C65EBA7123F70BE80091B7F9 /* EBookEntry.h */,
 				C65EBA6F23F70BE80091B7F9 /* FHhashQP.h */,
